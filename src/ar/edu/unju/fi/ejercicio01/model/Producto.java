@@ -56,4 +56,12 @@ public class Producto {
 	public enum Categoria{
 		TELEFONIA, INFORMATICA, ELECTROHOGAR, HERRAMIENTAS
 	}
+
+	@Override
+	public String toString() {
+		return "Producto [codigo=" + codigo + ", descripcion=" + descripcion + ", precioU=$" + precioU
+				+ ", origenFabricacion=" + origenFabricacion + ", categoria=" + categoria + "]";
+	}
+	
+	
 }
