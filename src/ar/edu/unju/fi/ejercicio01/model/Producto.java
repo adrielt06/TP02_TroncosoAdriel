@@ -7,6 +7,9 @@ public class Producto {
 	private OrigenFabricacion origenFabricacion;
 	private Categoria categoria;
 	
+	public Producto() {
+	}
+	
 	public Producto(String codigo, String descripcion, double precioU, OrigenFabricacion origenFabricacion,
 			Categoria categoria) {
 		this.codigo = codigo;
