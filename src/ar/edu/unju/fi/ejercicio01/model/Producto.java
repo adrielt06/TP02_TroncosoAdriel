@@ -7,8 +7,15 @@ public class Producto {
 	private OrigenFabricacion origenFabricacion;
 	private Categoria categoria;
 	
-	
-	
+	public Producto(String codigo, String descripcion, double precioU, OrigenFabricacion origenFabricacion,
+			Categoria categoria) {
+		this.codigo = codigo;
+		this.descripcion = descripcion;
+		this.precioU = precioU;
+		this.origenFabricacion = origenFabricacion;
+		this.categoria = categoria;
+	}
+
 	public String getCodigo() {
 		return codigo;
 	}
